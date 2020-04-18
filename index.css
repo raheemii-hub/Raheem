@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: salmon;
+    margin: 0;
+    padding: o;
+}
+.img container{
+    background-image:url('C:\Users\adele\Downloads\photo-1520607162513-77705c0f0d4a.jpeg') ;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 750px;
+    background-size: cover;
+    margin: 0;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 0px;
+}
+.img-container-content{
+    margin-top: 250px;
+    text-align: center;
+    color: white;
+}
+button{
+    display:inline-block;
+    background-color: slateblue;
+    border: none;
+    color: white;
+    padding: 9px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 8px;
+}
+button:hover{
+    background: #400;
+}
+button:focus{
+    outline: none;
+}
+img:hover{
+    box-shadow: 0 0 2px 1px rgba(0,140, 186, 0.5)
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color: #ddd;
+}
+.form{
+    margin: 0px auto;
+    text-align: center;
+}
+input[type=text]:focus{
+    outline: none;
+}
+input[type=email]{
+    width: 28%;
+    padding: 12px;
+    margin: 0px;
+    border-radius: 3px;
+    border: none;
+    background: #ccc;
+}
+input[type=email]:focus{
+    outline: none;
+}
+.textarea{
+    width: 85%;
+    padding: 19px;
+    resize: none;
+    border-radius: 3px;
+    border: none;
+    background: #ccc;
+    margin: 3px;
+}
+textarea:focus{
+    outline:none;
+}
+.btn{
+    width: 85%;
+    padding: 12px;
+    background-color: #ccc;
+    color: black;
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #ddd;
+}
+p{
+    color: #ddd;
+}
+
+
